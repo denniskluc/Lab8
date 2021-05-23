@@ -1,9 +1,9 @@
-import { TestScheduler } from '@jest/core';
-import { pushToHistory } from '../scripts/router.js';
-
 /**
  * @jest-environment jsdom
  */
+
+import { TestScheduler } from '@jest/core';
+import { pushToHistory } from '../scripts/router.js';
 
 describe('test pushToHistory', () => {
     test('settings case', () => {
